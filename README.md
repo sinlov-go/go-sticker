@@ -129,15 +129,3 @@ $ make style
 # run ci at local
 $ make ci
 ```
-
-## docker
-
-```bash
-# then test build as test/Dockerfile
-$ make dockerTestRestartLatest
-# clean test build
-$ make dockerTestPruneLatest
-
-# more info see
-$ make helpDocker
-```
