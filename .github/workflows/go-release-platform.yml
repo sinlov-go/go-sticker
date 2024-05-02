@@ -18,7 +18,7 @@ env:
   DIST_BINARY_NAME: go-sticker # to change your binary name, windows will auto add .exe
   DIST_BUILD_ENTRANCE: cmd/go-sticker/main.go # to change your build entrance
 
-permissions:
+permissions: # https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions#permissions
   contents: write
 
 jobs:
